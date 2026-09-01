@@ -11,7 +11,7 @@
 | `pg.use`      | Use items                                 |
 | `pg.attack`   | Attack entities                           |
 
-> Block placement is currently unrestricted.
+> There is a bug with `pg.interact` that when user throw an egg for example, the client won't see the egg in their inventory but actually it's still there according to the server. The player can see the egg again when they click on that egg's slot in the inventory.
 
 ## Planned Permissions
 
@@ -73,7 +73,7 @@ PermissionGate does not replace LuckPerms. It uses the Fabric Permissions API as
 
 ## Development Status
 
-> Again, these permissions can be merged into one or won't be implemented.
+> These permissions can be merged into one or won't be implemented.
 
 ### Phase 1 — Complete
 
