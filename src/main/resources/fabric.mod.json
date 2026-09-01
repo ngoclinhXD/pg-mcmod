@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "permissiongate",
-	"version": "${version}",
+	"version": "1.0.0",
 	"name": "PermissionGate",
 	"description": "Server-side permission and interaction control for Fabric servers.",
 	"authors": [
