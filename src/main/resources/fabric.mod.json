@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "permissiongate",
+	"version": "${version}",
+	"name": "PermissionGate",
+	"description": "Server-side permission and interaction control for Fabric servers.",
+	"authors": [
+		"ngoclinh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/permissiongate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ngoclinh.pg.PermissionGate"
+		]
+	},
+	"mixins": [
+		"permissiongate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
